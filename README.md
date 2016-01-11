@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    compile ('com.mapbox.mapboxsdk:mapbox-android-directions:1.0.0-SNAPSHOT@aar'){
+    compile ('com.mapbox.mapboxsdk:mapbox-android-directions:1.1.0-SNAPSHOT@aar'){
         transitive=true
     }
 }

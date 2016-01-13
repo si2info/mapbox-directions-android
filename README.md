@@ -53,7 +53,7 @@ Waypoint origin = new Waypoint(-77.04341, 38.90962);
 // The White House
 Waypoint destination = new Waypoint(-77.0365, 38.8977);
 
-MapboxDirections md = new MapboxDirections.Builder()
+MapboxDirections client = new MapboxDirections.Builder()
         .setAccessToken(MAPBOX_ACCESS_TOKEN)
         .setOrigin(origin)
         .setDestination(destination)

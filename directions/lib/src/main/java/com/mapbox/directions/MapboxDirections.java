@@ -153,7 +153,7 @@ public class MapboxDirections {
             // Convert to {lon},{lat} coordinate pairs
             List<String> pieces = new ArrayList<>();
             for (Waypoint waypoint: _waypoints) {
-                pieces.add(String.format("%f,%f", waypoint.getLongitude(), waypoint.getLatitude()));
+                pieces.add(String.format(Locale.ENGLISH, "%f,%f", waypoint.getLongitude(), waypoint.getLatitude()));
             }
 
             // The waypoints parameter should be a semicolon-separated list of locations to visit
